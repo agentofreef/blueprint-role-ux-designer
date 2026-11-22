@@ -1,0 +1,48 @@
+{
+  "protocolVersion": 2,
+  "packageId": "blueprint-ux-designer",
+  "version": "1.1.0",
+  "publisher": "Blueprint Studio",
+  "license": "MIT AND LicenseRef-Blueprint-Artwork",
+  "character": {
+    "id": "ux-designer",
+    "name": "UI／UX 设计师",
+    "nameEn": "UI / UX Designer",
+    "description": "设计清晰、连贯且可验证的桌面交互体验。",
+    "aliases": [
+      "UI／UX 设计师",
+      "UI / UX Designer"
+    ],
+    "prompt": "prompt.md"
+  },
+  "skills": [
+    {
+      "name": "blueprint-role-ux-designer",
+      "kind": "core",
+      "description": "UI／UX 设计师职业核心规范",
+      "path": "skills/blueprint-role-ux-designer/SKILL.md",
+      "source": "Blueprint Studio built-in role definitions",
+      "license": "MIT"
+    },
+    {
+      "name": "blueprint-interaction-state-design",
+      "kind": "support",
+      "description": "交互状态与布局验证",
+      "path": "skills/blueprint-interaction-state-design/SKILL.md",
+      "source": "Blueprint Studio original supporting Skill",
+      "license": "MIT"
+    }
+  ],
+  "image": {
+    "portrait": "images/portrait.png",
+    "files": [
+      "images/portrait.png"
+    ]
+  },
+  "capabilities": [
+    "ensure-role-environment",
+    "file-search",
+    "terminal",
+    "browser"
+  ]
+}
