@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "environment": [
+    {
+      "id": "node",
+      "label": "Node.js",
+      "kind": "runtime",
+      "required": false
+    },
+    {
+      "id": "npm",
+      "label": "npm",
+      "kind": "tool",
+      "required": false
+    }
+  ],
+  "installScript": "setup/install.json"
+}

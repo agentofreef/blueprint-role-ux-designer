@@ -1,7 +1,7 @@
 {
   "protocolVersion": 2,
   "packageId": "blueprint-ux-designer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "Blueprint Studio",
   "license": "MIT AND LicenseRef-Blueprint-Artwork",
   "character": {
@@ -44,5 +44,17 @@
     "file-search",
     "terminal",
     "browser"
+  ],
+  "resources": [
+    {
+      "path": "setup/requirements.json",
+      "kind": "environment",
+      "description": "角色托管的环境与 Skill 依赖"
+    },
+    {
+      "path": "setup/install.json",
+      "kind": "workflow",
+      "description": "托管依赖的后台安装顺序"
+    }
   ]
 }
